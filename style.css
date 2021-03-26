@@ -1,0 +1,62 @@
+h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #ff0000;
+}
+
+/* all 'h1' tags */
+
+h2 {
+	background-color: blue
+}
+
+.person {
+	color: red;
+}
+
+/* class person */
+
+#copyright {
+	font-size: 5px;
+}
+
+/* id copyright */
+
+.myclass {
+	text-indent: 5px;
+}
+
+.redColor .yellowColor {
+	color: orange;
+}
+
+.greenColor {
+	color: green;
+}
+
+.redColor {
+	color: red;
+}
+
+.boldFont {
+	font-weight: bold;
+}
+
+.logo {
+	position: absolute;
+	top: 200px; left: 300px; width: 4ex;
+	font-size: 200px;
+	background-color: white;
+	transform: rotate(0deg);
+	transform-origin: 2ex 1ex;
+	transition: transform 1s;
+	}
+.logo:hover {
+	transform: rotate(360deg);
+	transition: transform 5s;
+}
+
+@media (max-width: 1000px) {
+	.wide-stuffA {
+	  font-size: 3rem;
+	}
+  }	
