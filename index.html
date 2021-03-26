@@ -58,3 +58,98 @@ layout: uikit-plain
     </div>
 </div>
 
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Title Bar Text</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-2.1.4.js">
+	</script>
+
+</head>
+
+<body>
+	<div class="redColor">
+		<div class="red">Hello $</div>
+		<div class="boldFont">World</div>
+	</div>
+
+	<div class="greenColor">WWF</div>
+	<div id="world">Hello World 0</div>
+	<h1>Chapter Title</h1>
+	<div class="wide-stuffA">ajksfhjkdh</div>
+	<p>The first paragraph </br> is the most <em>important</em>.</p>
+
+	<div>
+		<img src="https://placeimg.com/640/480/any" alt="some text" width="40" />
+	</div>
+
+	<h1>Shopping List</h1>
+	<ul>
+		<li>Milk</li>
+		<li>Honey</li>
+		<li>Sweets</li>
+		<li>Juice</li>
+	</ul>
+
+	<img src="graph.jpg" alt="Graph" width="400" />
+
+	<a href="https://www.google.com">Link</a>
+
+	<!-- a comment inside your document -->
+
+	<table>
+		<tr>
+			<td>Field 1</td>
+			<td>Field 1</td>
+			<td>Field 1</td>
+		</tr>
+		<tr>
+			<td>Field 2 </td>
+			<td> Fieldjasdfjdsfjsdbfhjads,2 </td>
+			<td>dkafsjdkhf</td>
+		</tr>
+		<tr>
+			<td>Field 3 </td>
+			<td> Fieldjasdfjdsfjsdbfhjads,3 </td>
+			<td>dkafsjdkhf</td>
+		</tr>
+	</table>
+
+	<div class="logo">
+		ETH
+	</div>
+
+	<h1 class="person">Tobi Oetiker</h1>
+	<div class="person">Mark</div>
+	<div id="copyright">Copyright 2015</div>
+	<div class="myclass">dieser Text sollte eingerückt sein.</div>
+	<div class="myclass">dieser auch.</div>
+	<div class="myclass">und nochmals.</div>
+
+</body>
+
+<script>
+	console.log("Hello Jana");
+	window.alert("Hello World1");
+
+	document.addEventListener('DOMContentLoaded', e => {
+		document.body.append("Hello World2");
+	});
+
+	document.addEventListener('DOMContentLoaded', e => {
+		let el = document.querySelector("#world");
+		el.style.color = '#' + Math.floor(Math.random() * 16777215).toString(16);
+	});
+
+	jQuery(document).ready(function () {
+		jQuery("#world").css('color', 'red');
+	});
+</script>
+
+</html>
