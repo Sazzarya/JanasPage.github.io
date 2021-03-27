@@ -1,19 +1,11 @@
 h1 {
 	font-family: 'Roboto', sans-serif;
-	color: #ff0000;
+	color: red;
 }
-
-/* all 'h1' tags */
 
 h2 {
 	background-color: blue
 }
-
-.person {
-	color: red;
-}
-
-/* class person */
 
 #copyright {
 	font-size: 5px;
@@ -43,23 +35,173 @@ h2 {
 
 .logo {
 	position: absolute;
-	top: 200px; left: 300px; width: 4ex;
-	font-size: 200px;
+	top: 700px;
+	left: 900px;
+	width: 4ex;
+	font-size: 100px;
 	background-color: white;
 	transform: rotate(0deg);
 	transform-origin: 2ex 1ex;
 	transition: transform 1s;
-	}
+}
+
 .logo:hover {
 	transform: rotate(360deg);
-	transition: transform 5s;
+	transition: transform 2s;
 }
 
 @media (max-width: 1000px) {
 	.wide-stuffA {
-	  font-size: 3rem;
+		font-size: 3rem;
 	}
-  }
+}
 
 
+.header-pic {
+	background: url('https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_960_720.jpg') #444;
+	background-size: cover;
+	padding-bottom: 10px;
+}
 
+@media (min-width:768px) {
+	.header-dark {
+		padding-bottom: 10px;
+	}
+}
+
+.header-pic .navbar {
+	background: transparent;
+	color: #fff;
+}
+
+@media (min-width:768px) {
+	.header-pic .navbar {
+		padding-top: .75rem;
+		padding-bottom: .75rem;
+	}
+}
+
+.header-pic .navbar .navbar-brand {
+	font-weight: bold;
+	color: inherit;
+}
+
+.header-pic .navbar .navbar-brand:hover {
+	color: #f0f0f0;
+}
+
+.header-pic .navbar .navbar-collapse span {
+	margin-top: 5px;
+}
+
+.header-pic .navbar .navbar-collapse span .login {
+	color: #d9d9d9;
+	margin-right: .5rem;
+	text-decoration: none;
+}
+
+.header-pic .navbar .navbar-collapse span .login:hover {
+	color: #fff;
+}
+
+.header-pic .navbar .navbar-toggler {
+	border-color: #747474;
+}
+
+.header-pic .navbar .navbar-toggler:hover, .header-pic .navbar-toggler:focus {
+	background: none;
+}
+
+.header-pic .navbar .navbar-toggler {
+	color: #eee;
+}
+
+.header-pic .navbar .navbar-collapse, .header-pic .navbar .form-inline {
+	border-color: #636363;
+}
+
+@media (min-width: 992px) {
+	.header-pic .navbar.navbar .navbar-nav .nav-link {
+		padding-left: 1.2rem;
+		padding-right: 1.2rem;
+	}
+}
+
+.header-pic .navbar.navbar-dark .navbar-nav .nav-link {
+	color: #d9d9d9;
+}
+
+.header-pic .navbar.navbar-dark .navbar-nav .nav-link:focus, .header-pic .navbar.navbar-dark .navbar-nav .nav-link:hover {
+	color: #fcfeff !important;
+	background-color: transparent;
+}
+
+.header-pic .navbar .navbar-nav>li>.dropdown-menu {
+	margin-top: -5px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+	background-color: #fff;
+	border-radius: 2px;
+}
+
+.header-pic .navbar .dropdown-menu .dropdown-item:focus, .header-pic .navbar .dropdown-menu .dropdown-item {
+	line-height: 2;
+	font-size: 14px;
+	color: #37434d;
+}
+
+.header-pic .navbar .dropdown-menu .dropdown-item:focus, .header-pic .navbar .dropdown-menu .drodown-item:hover {
+	background: #ebeff1;
+}
+
+.header-pic .navbar .action-button, .header-pic .navbar .action-button:active {
+	background: #208f8f;
+	border-radius: 20px;
+	font-size: inherit;
+	color: #fff;
+	box-shadow: none;
+	border: none;
+	text-shadow: none;
+	padding: .5rem .8rem;
+	transition: background-color 0.25s;
+}
+
+.header-pic .navbar .action-button:hover {
+	background: #269d9d;
+}
+
+.header-pic .navbar .form-inline label {
+	color: #ccc;
+}
+
+.header-pic .navbar .form-inline .search-field:focus {
+	border-bottom: 1px solid #ccc;
+}
+
+.header-pic .hero {
+	margin-top: 60px;
+}
+
+@media (min-width:768px) {
+	.header-pic .hero {
+		margin-top: 20px;
+	}
+}
+
+.header-pic .hero h1 {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+@media (min-width:768px) {
+	.header-pic .hero h1 {
+		margin-bottom: 50px;
+		line-height: 1.5;
+	}
+}
+
+.header-pic .hero .embed-responsive iframe {
+	background-color: #666;
+}
