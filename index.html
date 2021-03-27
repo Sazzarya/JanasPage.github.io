@@ -1,32 +1,79 @@
 <html>
+
 <head>
 	<meta charset="utf-8" />
-	<title>Title Bar Text</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://code.jquery.com/jquery-2.1.4.js">
-	</script>
+	<title>Use at your own risk</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"> 
+	<link rel="stylesheet" href="styleBootstrap.css">
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 </head>
 
 <body>
-	<div class="redColor">
-		<div class="red">Hello $</div>
-		<div class="boldFont">World</div>
-	</div>
-
-	<div class="greenColor">WWF</div>
-	<div id="world">Hello World 0</div>
-	<h1>Chapter Title</h1>
-	<div class="wide-stuffA">ajksfhjkdh</div>
-	<p>The first paragraph </br> is the most <em>important</em>.</p>
-
 	<div>
-		<img src="https://placeimg.com/640/480/any" alt="some text" width="40" />
+		<div class="header-pic">
+			<nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+				<div class="container"><a class="navbar-brand" href="#">Liz Aglaia Belvira</a>
+					<button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
+						<span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon">
+						</span>
+					</button>
+					<div class="collapse navbar-collapse" id="navcol-1">
+						<ul class="nav navbar-nav">
+							<li class="nav-item" role="presentation"><a class="nav-link" href="#">Vorstellung</a></li>
+							<li class="nav-item" role="presentation"><a class="nav-link" href="#">Text 2</a></li>
+							<li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle"
+									data-toggle="dropdown" aria-expanded="false" href="#">Dropdown </a>
+								<div class="dropdown-menu" role="menu">
+									<a class="dropdown-item" role="presentation" href="#">First Item</a>
+									<a class="dropdown-item" role="presentation" href="#">Second Item</a>
+									<a class="dropdown-item" role="presentation" href="#">Third Item</a>
+								</div>
+							</li>
+						</ul>
+						<form class="form-inline mr-auto" target="_self">
+						</form><span class="navbar-text"><a href="#" class="login">Log In</a></span><a
+							class="btn btn-light action-button" role="button" href="#">Sign Up</a>
+					</div>
+				</div>
+			</nav>
+
+			<div class="container hero">
+				<div class="row">
+					<div class="col-md-8 offset-md-2">
+						<h1 class="text-center">Interessanter Text hier.</h1>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
-	<h1>Shopping List</h1>
+	<h1>Grosse Überschrift</h1>
+	<p>The first paragraph is the most <em>important</em> one. Therefore we don't mess around and provide some nice
+		Lorem Ipsum:</br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+		labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+		aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+		fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+		anim id est laborum.</p>
+
+	<h1>Adventure with Colors and Classes</h1>
+	<div class="redColor">
+		<div class="red">Class red and redColor</div>
+		<div class="boldFont">Class redColor and boldFont</div>
+	</div>
+
+	<div class="greenColor">greenColor</div>
+	<div id="world">Random Color</div>
+	<div class="wide-stuffA">Dieser Text wird sehr gross, wenn man das Fenster klein macht. Es ist falsch herum xD</div>
+
+	<h1>Fun with Pictures</h1>
+	<div>
+		<img src="https://placeimg.com/640/480/any" alt="some text" width="400" />
+		<img src="graph.jpg" alt="Graph" width="400" />
+	</div>
+
+	<h1>More Fun with a List</h1>
 	<ul>
 		<li>Milk</li>
 		<li>Honey</li>
@@ -34,59 +81,63 @@
 		<li>Juice</li>
 	</ul>
 
-	<img src="graph.jpg" alt="Graph" width="400" />
+	<h1> Links </h1>
 
-	<a href="https://www.google.com">Link</a>
+	<a href="https://www.google.com">Go to Google insted if you don't like this page.</a>
 
 	<!-- a comment inside your document -->
 
+	<h1>Table</h1>
 	<table>
 		<tr>
 			<td>Field 1</td>
-			<td>Field 1</td>
-			<td>Field 1</td>
+			<td>Field 2</td>
+			<td>Field 3</td>
 		</tr>
 		<tr>
-			<td>Field 2 </td>
-			<td> Fieldjasdfjdsfjsdbfhjads,2 </td>
-			<td>dkafsjdkhf</td>
+			<td>Field 4</td>
+			<td>Field 5</td>
+			<td>Field 6</td>
 		</tr>
 		<tr>
-			<td>Field 3 </td>
-			<td> Fieldjasdfjdsfjsdbfhjads,3 </td>
-			<td>dkafsjdkhf</td>
+			<td>Field 7</td>
+			<td>Field 8</td>
+			<td>Field 9</td>
 		</tr>
 	</table>
 
 	<div class="logo">
-		ETH
+		spin
 	</div>
 
-	<h1 class="person">Tobi Oetiker</h1>
-	<div class="person">Mark</div>
-	<div id="copyright">Copyright 2015</div>
-	<div class="myclass">dieser Text sollte eingerückt sein.</div>
-	<div class="myclass">dieser auch.</div>
-	<div class="myclass">und nochmals.</div>
+‚
+	<h1>Fun with Small Text and Tabs</h1>
+	<div id="copyright">Dieser Text ist klein.</div>
+	<div class="myclass">Dieser Text sollte eingerückt sein.</div>
+
+
+	<h1>Ideen</h1>
+	<ul>
+		<li>Zahlengenerator für Codes</li>
+		<li>Login</li>
+	</ul>
 
 </body>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 <script>
 	console.log("Hello Jana");
-	window.alert("Hi Besucher!");
 
 	document.addEventListener('DOMContentLoaded', e => {
-		document.body.append("Hello World2");
+		document.body.append("This text is added by a script.");
 	});
 
 	document.addEventListener('DOMContentLoaded', e => {
 		let el = document.querySelector("#world");
 		el.style.color = '#' + Math.floor(Math.random() * 16777215).toString(16);
 	});
-
-	jQuery(document).ready(function () {
-		jQuery("#world").css('color', 'red');
-	});
 </script>
 
 </html>
+window.alert("Hi Besucher!");
